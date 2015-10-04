@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import java.net.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="298.0" prefWidth="297.0" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RatingController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#feffde" height="298.0" stroke="#aba589" strokeType="OUTSIDE" strokeWidth="0.0" width="297.0" />
+      <Button focusTraversable="false" layoutX="118.0" layoutY="259.0" mnemonicParsing="false" onAction="#okClick" styleClass="exit" text="Закрыть">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="94.0" layoutY="14.0" text="Рейтинг игроков" textFill="#aba589">
+         <font>
+            <Font name="Vrinda" size="14.0" />
+         </font></Label>
+      <TableView fx:id="table" focusTraversable="false" layoutX="10.0" layoutY="41.0" prefHeight="206.0" prefWidth="275.0" style="-fx-background-color: #feffde;">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="126.0" text="Имя" />
+          <TableColumn fx:id="score" prefWidth="76.0" text="Счет" />
+            <TableColumn fx:id="maximum" prefWidth="73.0" text="Макс." />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

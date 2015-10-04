@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09.04.2015, 18:11:07
+    Author     : Xenan
+*/
+
+.box2 {
+    -fx-fill:#97d4e8; 
+}
+.box4 {
+    -fx-fill:#67bedb;
+}
+.box8 {
+    -fx-fill:#5cb4d1; 
+}
+.box16 {
+    -fx-fill: #33abd4;
+}
+.box32 {
+    -fx-fill: #369fc2;
+}
+.box64 {
+    -fx-fill: #2d93b5;
+}
+.box128 {
+    -fx-fill: #2381a1;
+}
+.box256 {
+    -fx-fill: #24728c;
+}
+.box512 {
+    -fx-fill: #22667d;
+}
+.box1024 {
+    -fx-fill: #195569;
+}
+.box2048 {
+    -fx-fill: #0d485c;
+}
+.box4096 {
+    -fx-fill: #04384a;
+}
+.box8192 {
+    -fx-fill: #033140;
+}
+.box16384 {
+    -fx-fill: #062d3b;
+}
+
+.number2 {
+    -fx-text-fill: #456f7d;
+}
+.number4 {
+    -fx-text-fill: #386878;
+}
+.number8 {
+    -fx-text-fill: #326373;
+}
+.number16 {
+    -fx-text-fill: #1d6178;
+}
+.number32 {
+    -fx-text-fill: #205e73;
+}
+.number64 {
+    -fx-text-fill: #174b5c;
+}
+.number128 {
+    -fx-text-fill: #3bb9e3;
+}
+.number256 {
+    -fx-text-fill: #38b1d9;
+}
+.number512 {
+    -fx-text-fill: #38b1d9;
+}
+.number1024 {
+    -fx-text-fill: #30a1c7;
+}
+.number2048 {
+    -fx-text-fill: #1b98c2;
+}
+.number4096 {
+    -fx-text-fill: #0986b0;
+}
+.number8192 {
+    -fx-text-fill: #078ab5;
+}
+.number16384 {
+    -fx-text-fill: #128ab3;
+}

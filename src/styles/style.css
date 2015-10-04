@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12.12.2014, 23:29:49
+    Author     : Pavilion
+*/
+.mainFxmlClass {
+    //-fx-background-color: rgba(255, 255, 255, 1);
+    -fx-effect: dropshadow(gaussian, grey, 10, 0, 0, 0);
+    -fx-background-insets: 10;
+    -fx-background-radius: 5;
+    //-fx-border-width: 1;
+    //-fx-border-color: #696969;
+    -fx-border-insets: 10;
+    -fx-border-radius: 5;
+}
+
+.exit {
+    -fx-background-color: #aba589;
+    -fx-text-fill: #ffffff;
+}
+
+.exit:hover {
+    -fx-background-color: #8c835a;
+}
+
+.menuButton {
+    -fx-background-color: #aba589;
+}
+.menuButton:hover , .menuButton:focused{
+    -fx-background-color: #8c835a;
+}
+
+.context-menu {
+    -fx-background-color: #bebba0;
+    -fx-background-radius: 3 3 3 3;
+    -fx-padding: 0 0 0 0;
+    -fx-border-width: 1 0 0 0;
+    -fx-border-color: #feffde;
+    -fx-border-radius: 3;
+}
+.separ{
+    -fx-fill: #8c835a;
+}
+.menu-item{
+    -fx-background-radius: 3 3 3 3;
+    -fx-padding:8 2 8 8;
+    -fx-cursor: hand;
+}
+.menu-item:hover , .menu-item:focused{
+    -fx-background-color: #8c835a;
+}
+.text {
+    -fx-font-smoothing-type: gray;
+}
+.textfield {
+    -fx-background-color: #bebba0;
+}
+
+
+
+
+.table-view {
+    -fx-base: #feffde;
+    -fx-control-inner-background: #feffde;
+    -fx-background-color: #feffde;
+    //-fx-table-cell-border-color: 0;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: none;
+}
+
+.table-view .column-header, .table-view .filler {
+    //-fx-size: 35;
+    -fx-border-width: 1;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 80%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    //-fx-font-size: 20pt;
+    -fx-text-fill: #8c835a;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #bebba0;
+    -fx-border-color: #bebba0;
+    -fx-focus-traversable:false;
+}
+
+
